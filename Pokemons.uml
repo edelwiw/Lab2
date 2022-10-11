@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Pokemons</OriginalElement>
+  <nodes>
+    <node x="30.512879133109834" y="397.4655417238995">Pokemons.Vikavolt</node>
+    <node x="286.79803049179384" y="-184.96697771116783">ru.ifmo.se.pokemon.Pokemon</node>
+    <node x="539.561787473413" y="295.4972195630373">Pokemons.Noivern</node>
+    <node x="38.67517416216043" y="171.17932064876675">Pokemons.Grubbin</node>
+    <node x="552.6775643016464" y="171.17932064876675">Pokemons.Noibat</node>
+    <node x="25.67517416216043" y="295.4972195630373">Pokemons.Charjabug</node>
+    <node x="295.5517532056509" y="295.4972195630373">Pokemons.Turtonator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Pokemons.Noivern" target="Pokemons.Noibat" relationship="GENERALIZATION">
+      <point x="9.61577682823335" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="Pokemons.Charjabug" target="Pokemons.Grubbin" relationship="GENERALIZATION">
+      <point x="6.5" y="-26.5" />
+      <point x="-0.0" y="26.5" />
+    </edge>
+    <edge source="Pokemons.Grubbin" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="85.49952365705525" y="-3.2064876674731124E-4" />
+      <point x="375.79803049179384" y="197.679" />
+      <point x="375.79803049179384" y="-36.967298359934574" />
+      <point x="88.99988567819719" y="-3.206487667455349E-4" />
+    </edge>
+    <edge source="Pokemons.Vikavolt" target="Pokemons.Charjabug" relationship="GENERALIZATION">
+      <point x="2.1622950290505827" y="-26.5" />
+      <point x="117.67517416216042" y="367.3955803663004" />
+      <point x="117.67517416216043" y="367.3955803663004" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="Pokemons.Turtonator" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="-12.253722713857087" y="-26.499776308215246" />
+      <point x="375.79803049179384" y="-36.967298359934574" />
+      <point x="88.99988567819719" y="-3.206487667455349E-4" />
+    </edge>
+    <edge source="Pokemons.Noibat" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="-81.00014390860667" y="-2.6170889989884927E-4" />
+      <point x="375.79803049179384" y="197.67905893986685" />
+      <point x="375.79803049179384" y="-36.967298359934574" />
+      <point x="88.99988567819719" y="-3.206487667455349E-4" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.903104413171527" showDependencies="false" x="309.34063118051927" y="200.88229581745878" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

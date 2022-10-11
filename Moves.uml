@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Moves</OriginalElement>
+  <nodes>
+    <node x="245.45491556235902" y="271.80524360146137">Moves.DoubleTeam</node>
+    <node x="515.1282224155863" y="271.80524360146137">Moves.Swagger</node>
+    <node x="-507.03800961373497" y="480.0205632993228">Moves.LeechLife</node>
+    <node x="-762.6489487851414" y="291.97351524781425">ru.ifmo.se.pokemon.SpecialMove</node>
+    <node x="-484.99860975293836" y="753.5069219644712">Moves.XScissor</node>
+    <node x="-193.13761585737365" y="627.763742631897">Moves.DragonClaw</node>
+    <node x="786.8015292688135" y="271.80524360146137">Moves.Rest</node>
+    <node x="-703.8859377609108" y="-102.42159844422713">ru.ifmo.se.pokemon.DamageMove</node>
+    <node x="818.1134786519169" y="123.96438959548948">Moves.Confide</node>
+    <node x="-497.5210360204836" y="616.763742631897">Moves.Crunch</node>
+    <node x="412.92800164932214" y="-2.4100760964000756">ru.ifmo.se.pokemon.StatusMove</node>
+    <node x="-120.66666666666663" y="-147.42159844422713">ru.ifmo.se.pokemon.Move</node>
+    <node x="-1.6090392227577865" y="616.763742631897">Moves.PlayRough</node>
+    <node x="-391.0204283321237" y="291.97351524781425">ru.ifmo.se.pokemon.PhysicalMove</node>
+    <node x="-797.3605045888162" y="465.3686289398556">Moves.BugBuzz</node>
+    <node x="-28.609423365384146" y="480.02056329932293">Moves.WoodHammer</node>
+    <node x="772.1980622752571" y="-94.77412976315854">Moves.Screech</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Moves.Rest" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="4.7073118651042023E-4" y="-49.000243601461364" />
+      <point x="908.802" y="246.0" />
+      <point x="746.0" y="246.0" />
+      <point x="746.0" y="79.59" />
+      <point x="152.99999835067786" y="7.609640007899543E-5" />
+    </edge>
+    <edge source="Moves.PlayRough" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="-3.8414262635910745E-4" y="-48.99954088257414" />
+      <point x="121.39057663461585" y="598.0" />
+      <point x="-46.0" y="598.0" />
+      <point x="-46.0" y="351.974" />
+      <point x="163.0004283321237" y="4.8475218574139944E-4" />
+    </edge>
+    <edge source="Moves.BugBuzz" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="74.71155580367474" y="-49.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="Moves.Crunch" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="3.6020483605625486E-5" y="-48.99974263189699" />
+      <point x="-374.521" y="598.0" />
+      <point x="-46.0" y="598.0" />
+      <point x="-46.0" y="351.974" />
+      <point x="163.0004283321237" y="4.8475218574139944E-4" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.StatusMove" target="ru.ifmo.se.pokemon.Move" relationship="GENERALIZATION">
+      <point x="-1.6493221437485772E-6" y="-81.99992390359992" />
+      <point x="565.928" y="-24.0" />
+      <point x="352.455" y="-24.0" />
+      <point x="352.455" y="45.578" />
+      <point x="161.99966666666663" y="-4.015557728678232E-4" />
+    </edge>
+    <edge source="Moves.XScissor" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="76.49960975293834" y="-3.2709219644711993" />
+      <point x="-210.638" y="788.236" />
+      <point x="-210.638" y="598.0" />
+      <point x="-46.0" y="598.0" />
+      <point x="-46.0" y="351.974" />
+      <point x="163.0004283321237" y="4.8475218574139944E-4" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.SpecialMove" target="ru.ifmo.se.pokemon.DamageMove" relationship="GENERALIZATION">
+      <point x="162.99994878514144" y="4.8475218574139944E-4" />
+      <point x="-413.0" y="351.974" />
+      <point x="-413.0" y="274.474" />
+      <point x="-510.88599999999997" y="274.474" />
+      <point x="-6.223908917490917E-5" y="147.99959844422713" />
+    </edge>
+    <edge source="Moves.WoodHammer" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="-149.99957663461586" y="4.367006770280568E-4" />
+      <point x="-46.0" y="529.021" />
+      <point x="-46.0" y="351.974" />
+      <point x="163.0004283321237" y="4.8475218574139944E-4" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.DamageMove" target="ru.ifmo.se.pokemon.Move" relationship="GENERALIZATION">
+      <point x="193.0" y="0.0" />
+      <point x="-162.0" y="0.0" />
+    </edge>
+    <edge source="Moves.LeechLife" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="9.613734960112197E-6" y="49.00043670067714" />
+      <point x="-357.038" y="598.0" />
+      <point x="-46.0" y="598.0" />
+      <point x="-46.0" y="351.974" />
+      <point x="163.0004283321237" y="4.8475218574139944E-4" />
+    </edge>
+    <edge source="Moves.Swagger" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="-2.2241558622226876E-4" y="-49.000243601461364" />
+      <point x="638.128" y="246.0" />
+      <point x="746.0" y="246.0" />
+      <point x="746.0" y="79.59" />
+      <point x="152.99999835067786" y="7.609640007899543E-5" />
+    </edge>
+    <edge source="Moves.DoubleTeam" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="8.443764096455197E-5" y="-49.000243601461364" />
+      <point x="367.455" y="246.0" />
+      <point x="746.0" y="246.0" />
+      <point x="746.0" y="79.59" />
+      <point x="152.99999835067786" y="7.609640007899543E-5" />
+    </edge>
+    <edge source="Moves.Screech" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="-123.00006227525716" y="1.2976315854018594E-4" />
+      <point x="746.0" y="-45.774" />
+      <point x="746.0" y="79.59" />
+      <point x="152.99999835067786" y="7.609640007899543E-5" />
+    </edge>
+    <edge source="Moves.Confide" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="-4.786519168646919E-4" y="48.99961040451052" />
+      <point x="941.113" y="246.0" />
+      <point x="746.0" y="246.0" />
+      <point x="746.0" y="79.59" />
+      <point x="152.99999835067786" y="7.609640007899543E-5" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.PhysicalMove" target="ru.ifmo.se.pokemon.DamageMove" relationship="GENERALIZATION">
+      <point x="-162.9995716678763" y="4.8475218574139944E-4" />
+      <point x="-413.0" y="351.974" />
+      <point x="-413.0" y="274.474" />
+      <point x="-510.88599999999997" y="274.474" />
+      <point x="-6.223908917490917E-5" y="147.99959844422713" />
+    </edge>
+    <edge source="Moves.DragonClaw" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="-3.8414262635910745E-4" y="-37.99974263189699" />
+      <point x="-116.638" y="598.0" />
+      <point x="-46.0" y="598.0" />
+      <point x="-46.0" y="351.974" />
+      <point x="163.0004283321237" y="4.8475218574139944E-4" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.48205392632149774" showDependencies="false" x="263.86387254522276" y="497.8236460456965" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
