@@ -1,7 +1,6 @@
 package Pokemons;
 
-import Moves.BugBuzz;
-import ru.ifmo.se.pokemon.Pokemon;
+import Moves.SpecialMoves.BugBuzz;
 import ru.ifmo.se.pokemon.Type;
 
 public class Vikavolt extends Charjabug {

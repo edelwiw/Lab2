@@ -1,10 +1,10 @@
 package Pokemons;
 
-import Moves.LeechLife;
-import Moves.Screech;
-import Moves.Swagger;
-import ru.ifmo.se.pokemon.Pokemon;
+import Moves.PhysicalMoves.LeechLife;
+import Moves.StatusMoves.Screech;
+import Moves.StatusMoves.Swagger;
 import ru.ifmo.se.pokemon.Type;
+import ru.ifmo.se.pokemon.Pokemon;
 
 public class Noibat extends Pokemon {
     public Noibat(String name, int lvl) {

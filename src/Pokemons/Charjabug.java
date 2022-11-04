@@ -1,6 +1,6 @@
 package Pokemons;
 
-import Moves.Crunch;
+import Moves.PhysicalMoves.Crunch;
 import ru.ifmo.se.pokemon.Type;
 
 public class Charjabug extends  Grubbin{

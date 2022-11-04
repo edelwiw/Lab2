@@ -1,9 +1,9 @@
 package Pokemons;
 
-import Moves.Confide;
-import Moves.DoubleTeam;
-import Moves.PlayRough;
-import Moves.WoodHammer;
+import Moves.StatusMoves.Confide;
+import Moves.StatusMoves.DoubleTeam;
+import Moves.PhysicalMoves.PlayRough;
+import Moves.PhysicalMoves.WoodHammer;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

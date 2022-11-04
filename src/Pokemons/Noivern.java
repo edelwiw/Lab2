@@ -1,6 +1,6 @@
 package Pokemons;
 
-import Moves.DragonClaw;
+import Moves.PhysicalMoves.DragonClaw;
 import ru.ifmo.se.pokemon.Type;
 
 public class Noivern extends Noibat{

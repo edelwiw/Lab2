@@ -1,9 +1,9 @@
 package Pokemons;
 
-import Moves.Rest;
-import Moves.XScissor;
-import ru.ifmo.se.pokemon.Pokemon;
+import Moves.StatusMoves.Rest;
+import Moves.PhysicalMoves.XScissor;
 import ru.ifmo.se.pokemon.Type;
+import ru.ifmo.se.pokemon.Pokemon;
 
 public class Grubbin extends Pokemon {
     public Grubbin(String name, int lvl) {

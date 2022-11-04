@@ -1,4 +1,4 @@
-package Moves;
+package Moves.SpecialMoves;
 
 import ru.ifmo.se.pokemon.*;
 
